@@ -21,7 +21,7 @@
                 <h1>Hello</h1>
             </div>
         </div>
-        <div class="col" id="row2">
+        <div class="row" id="row2">
             <div class="col" id="result">
                 <h2>Hello!</h2>
             </div>
@@ -42,11 +42,6 @@
         width: 100%;
         height: auto;
     }
-    #result {
-        width: 200px;
-        height: auto;
-        overflow: hidden;
-    }
 
     #row2 {
         width: 220px;
@@ -56,18 +51,20 @@
 
     #result {
         text-align: center;
+        width: 200px;
+        height: auto;
+        overflow: hidden;
     }
     
 
-    #row2 > #result  h2 {
+    #result  h2 {
         position: relative;
         background-image: url(Image/background.jpg);
         background-size: cover;
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
+        font-size: 3rem;
     }  
-
-
 </style>
 </html>
